@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Manager Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        #sidebar {
+            width: 250px;
+            height: 100%;
+            background-color: #333;
+            position: fixed;
+            padding-top: 20px;
+            color: white;
+        }
+
+        #sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            display: block;
+            transition: background 0.3s;
+            text-align: center; /* Center the text */
+        }
+
+        #sidebar a:hover {
+            background: #555;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #333; /* Darker text color */
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666; /* Slightly darker text color */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Students</a>
+        <a href="#">Teachers</a>
+        <a href="#">Courses</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div id="content">
+        <h2>School Manager Dashboard</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Total Students</h3>
+                <p>500</p>
+            </div>
+            <div class="card">
+                <h3>Total Teachers</h3>
+                <p>30</p>
+            </div>
+            <div class="card">
+                <h3>Total Courses</h3>
+                <p>20</p>
+            </div>
+            <div class="card">
+                <h3>Attendance</h3>
+                <p>90%</p>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+
+</body>
+</html>

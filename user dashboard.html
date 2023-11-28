@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        #navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+            margin: 0;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar">
+        <h2>User Dashboard</h2>
+    </div>
+
+    <div id="content">
+        <div class="card-container">
+            <div class="card">
+                <h3>Profile</h3>
+                <p>View and edit your profile</p>
+            </div>
+            <div class="card">
+                <h3>Messages</h3>
+                <p>View your messages</p>
+            </div>
+            <div class="card">
+                <h3>Settings</h3>
+                <p>Adjust your account settings</p>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; School</p>
+    </div>
+
+</body>
+</html>
