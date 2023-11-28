@@ -76,7 +76,7 @@ h3{
     padding: 10px;
 }
 .right p{
-    font-size: 20px;
+    font-size: 40px;
     padding: 10px;
     background-color: wheat;
 }
@@ -94,21 +94,69 @@ h3{
 .items{
     height: 75vh;
     width: 100%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
+    flex-direction: column;
 }
-.items-row-1{
-    height: 75vh;
+.item-row-1{
+    height: 38vh;
     width: 100%;
-    border: 3px solid red;
-    display: flex;
+    /* border: 3px solid red; */
+    display:flex ;
+
+   
 }
-.items-row-2{
-    height: 75vh;
+.item-row-2{
+    height: 38vh;
     width: 100%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
+    
+    
+}
+.card {
+    width: 300px;
+    margin: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    /* border: 2px saddlebrown solid; */
 }
 
+.card img {
+    width: 70%;
+    height: 100px;
+    object-fit: cover;
+}
 
+.card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p.price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card p.description {
+    color: #555;
+    padding: 0 15px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
 
