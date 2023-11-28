@@ -91,5 +91,24 @@ h3{
 .products h1{
     text-align: center;
 }
+.items{
+    height: 75vh;
+    width: 100%;
+    border: 3px solid red;
+    display: flex;
+}
+.items-row-1{
+    height: 75vh;
+    width: 100%;
+    border: 3px solid red;
+    display: flex;
+}
+.items-row-2{
+    height: 75vh;
+    width: 100%;
+    border: 3px solid red;
+    display: flex;
+}
+
 
 
