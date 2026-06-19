@@ -1,0 +1,3 @@
+import type { Config } from 'tailwindcss';
+const config: Config = { content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'], theme: { extend: { fontFamily: { sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui'] }, animation: { float: 'float 7s ease-in-out infinite', pulseGlow: 'pulseGlow 4s ease-in-out infinite' }, keyframes: { float: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-18px)' } }, pulseGlow: { '0%,100%': { opacity: '.45', transform: 'scale(1)' }, '50%': { opacity: '.8', transform: 'scale(1.06)' } } } } }, plugins: [] };
+export default config;
